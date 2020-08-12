@@ -1,0 +1,16 @@
+PODS:
+  - RefreshControl (0.0.1)
+
+DEPENDENCIES:
+  - RefreshControl (from `../`)
+
+EXTERNAL SOURCES:
+  RefreshControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RefreshControl: 32fe5c333b5cf5869d7405e4bea60dcac791c71d
+
+PODFILE CHECKSUM: cad5181fbe9ec57d43f33da9b0fc61aed59ab851
+
+COCOAPODS: 1.9.3

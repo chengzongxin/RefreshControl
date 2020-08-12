@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0433D22D5EC8B38A5013B91E4B21A847 /* RefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3799F61AA915325300DFDE41F18EB0 /* RefreshHeader.m */; };
+		0A307FC83E077F074E67521520E83281 /* UIView+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E5CB1C869E3B83CD827C564C75D5AAE /* UIView+Layout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C9C0EC6EADE1A6ED29A708714C6D9CD /* RefreshControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 801ACB48B141A856F5E2BBB903B2D22A /* RefreshControl-dummy.m */; };
+		1CA00ECEACCC704E07BEAFC433EDE83E /* RefreshConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 90E50BC9C13939AAC7349149032D9187 /* RefreshConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D61BE4A4CB3C47360E753FA009C8238 /* RefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 179B2337CACE53CB25633361769008C8 /* RefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E45E26D30830D71A254EFC7DF10BA07 /* RefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0245359FEFD002F2A9BBFA260030A4 /* RefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41B815CFCBA96E6AAF5B1EADDCFEA204 /* UIScrollView+RefreshController.m in Sources */ = {isa = PBXBuildFile; fileRef = 675B4864EEA573A51C15B63278A9C86A /* UIScrollView+RefreshController.m */; };
+		449A2C58EC31D980ECB1019CAF523F88 /* Pods-RefreshControlDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B068BF8379767B908C13D98142F290DB /* Pods-RefreshControlDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6061A1D23BA3B8547DA646006E67B0DE /* RefreshControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C0E4287A935C3A395681A5C3E1666F /* RefreshControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		624B3E4702A0DAAB2FC0761C96255CA0 /* UIScrollView+RefreshController.h in Headers */ = {isa = PBXBuildFile; fileRef = FF21DDEB70BC0E44C13D19E8B7FD209A /* UIScrollView+RefreshController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ADAAB7BD2B43722B3C7C355527EA94B /* RefreshConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF93ACBF085933C82997AC70A0F7813 /* RefreshConstant.m */; };
+		6CD51A8172D47BE36A25E845005C5AF5 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA093D7DBD2C36505AEF184683799F3 /* UIView+Layout.m */; };
+		79D9F1B646DD8762CC7B43626766F3F4 /* Pods-RefreshControlDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CAFF61AE1EF1D86010DB0F28D3E120A /* Pods-RefreshControlDemo-dummy.m */; };
+		8B22E0A8E28B72A8A4D756D6AF5A4231 /* LoadMoreControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 396C16105A50B0617BD76F9C302F4291 /* LoadMoreControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92EFF8B86FEA50D900D647931A159F22 /* LoadMoreControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E62FE81AB9569F916169E523201EF027 /* LoadMoreControl.m */; };
+		95B871A18039EA733F0CC609C0A59199 /* RefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 059400E0826B70E2838ACD6D78EA92F7 /* RefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99511B43537839D48A613E64163BB001 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AD244CD7AEA52098E5B87072BB2F6F2A /* RefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FF18B38407A9094B8D8C2D6FEE453114 /* RefreshGifHeader.m */; };
+		AE183E655AACC5101B43A5F37A26A8BB /* RefreshBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 464CF675CE9C5EEB25B7EAB5B2340C12 /* RefreshBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B365052C8842A274C46027A40BA4CC10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CDFB383609EC4AA37AF0EFC970651CE5 /* RefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BE8DF59E8B709AADA35E89B579A2F4 /* RefreshBaseView.m */; };
+		D625086DD4DFB5D8CB1253E198C0F8FF /* RefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 817524F9154C4C44D4EE1BBDC7BA8C4B /* RefreshFooter.m */; };
+		ECE1B4D83AD3D8EEB52E5BE04F952298 /* RefreshGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EF1BC794DD4841A929058FDC84503C /* RefreshGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8B71A809B5F1BF3D8C55FB2E77C8488 /* RefreshGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6305D4671876D184637438CBF0D349 /* RefreshGifFooter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C861966F752A1FEF2C49B42D6E635B75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 492BD7592143DE97DB8959F2A4B90E25;
+			remoteInfo = RefreshControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		059400E0826B70E2838ACD6D78EA92F7 /* RefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RefreshGifHeader.h; path = Classes/Refresh/RefreshGifHeader.h; sourceTree = "<group>"; };
+		1324239F30C276F555AF6AF1CCF1C794 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		179B2337CACE53CB25633361769008C8 /* RefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RefreshHeader.h; path = Classes/Refresh/RefreshHeader.h; sourceTree = "<group>"; };
+		17FB291894CF8345ADDF3CD842793783 /* Pods_RefreshControlDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RefreshControlDemo.framework; path = "Pods-RefreshControlDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BE8DF59E8B709AADA35E89B579A2F4 /* RefreshBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RefreshBaseView.m; path = Classes/Refresh/RefreshBaseView.m; sourceTree = "<group>"; };
+		22838D97A7E235C197678A711E197B46 /* Pods-RefreshControlDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RefreshControlDemo-Info.plist"; sourceTree = "<group>"; };
+		282A02C7CEC807A30C3634CEB5A00DA9 /* RefreshControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RefreshControl.modulemap; sourceTree = "<group>"; };
+		2A6305D4671876D184637438CBF0D349 /* RefreshGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RefreshGifFooter.m; path = Classes/Refresh/RefreshGifFooter.m; sourceTree = "<group>"; };
+		2E5CB1C869E3B83CD827C564C75D5AAE /* UIView+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Layout.h"; path = "Classes/Refresh/UIView+Layout.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		396C16105A50B0617BD76F9C302F4291 /* LoadMoreControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoadMoreControl.h; path = Classes/Refresh/LoadMoreControl.h; sourceTree = "<group>"; };
+		416B80BD29C077914F8B54B43BB3BE1A /* Pods-RefreshControlDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RefreshControlDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		464CF675CE9C5EEB25B7EAB5B2340C12 /* RefreshBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RefreshBaseView.h; path = Classes/Refresh/RefreshBaseView.h; sourceTree = "<group>"; };
+		4682D5311803800122FA464F28F22253 /* RefreshControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RefreshControl-prefix.pch"; sourceTree = "<group>"; };
+		4937F90185A5FF43922EDDBD587B73C0 /* RefreshControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RefreshControl.release.xcconfig; sourceTree = "<group>"; };
+		494566773713989F1590B60D61EDC3FA /* Pods-RefreshControlDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RefreshControlDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4A0245359FEFD002F2A9BBFA260030A4 /* RefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RefreshFooter.h; path = Classes/Refresh/RefreshFooter.h; sourceTree = "<group>"; };
+		5B3799F61AA915325300DFDE41F18EB0 /* RefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RefreshHeader.m; path = Classes/Refresh/RefreshHeader.m; sourceTree = "<group>"; };
+		5F914FC57F02C61856FD07BB144BFE8A /* Pods-RefreshControlDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RefreshControlDemo-frameworks.sh"; sourceTree = "<group>"; };
+		675B4864EEA573A51C15B63278A9C86A /* UIScrollView+RefreshController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+RefreshController.m"; path = "Classes/Refresh/UIScrollView+RefreshController.m"; sourceTree = "<group>"; };
+		72D4DB0D410CD2D06897E46700216BE0 /* RefreshControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RefreshControl-Info.plist"; sourceTree = "<group>"; };
+		73AE27AA9705ABB9545FEB81B2A57C1A /* RefreshControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RefreshControl.framework; path = RefreshControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		778828C10167D8F1A9E16100D8A5F63A /* Pods-RefreshControlDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RefreshControlDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		801ACB48B141A856F5E2BBB903B2D22A /* RefreshControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RefreshControl-dummy.m"; sourceTree = "<group>"; };
+		817524F9154C4C44D4EE1BBDC7BA8C4B /* RefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RefreshFooter.m; path = Classes/Refresh/RefreshFooter.m; sourceTree = "<group>"; };
+		89429C5F6A76CE6A86BCDD8D267A528C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8CAFF61AE1EF1D86010DB0F28D3E120A /* Pods-RefreshControlDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RefreshControlDemo-dummy.m"; sourceTree = "<group>"; };
+		906161C49E3A9B0D817667CF62EA4D3E /* Pods-RefreshControlDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RefreshControlDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		90E50BC9C13939AAC7349149032D9187 /* RefreshConstant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RefreshConstant.h; path = Classes/Refresh/RefreshConstant.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A28537CDD658E7A9C0D9A3B14A786B95 /* RefreshControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RefreshControl.debug.xcconfig; sourceTree = "<group>"; };
+		A599391155E121D703E8ED3497E99C3E /* RefreshControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RefreshControl.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B068BF8379767B908C13D98142F290DB /* Pods-RefreshControlDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RefreshControlDemo-umbrella.h"; sourceTree = "<group>"; };
+		C6EF1BC794DD4841A929058FDC84503C /* RefreshGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RefreshGifFooter.h; path = Classes/Refresh/RefreshGifFooter.h; sourceTree = "<group>"; };
+		CFA093D7DBD2C36505AEF184683799F3 /* UIView+Layout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Layout.m"; path = "Classes/Refresh/UIView+Layout.m"; sourceTree = "<group>"; };
+		D8C0E4287A935C3A395681A5C3E1666F /* RefreshControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RefreshControl-umbrella.h"; sourceTree = "<group>"; };
+		DBF93ACBF085933C82997AC70A0F7813 /* RefreshConstant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RefreshConstant.m; path = Classes/Refresh/RefreshConstant.m; sourceTree = "<group>"; };
+		DC4593B4DDA0F203354297D727A55071 /* Pods-RefreshControlDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RefreshControlDemo.modulemap"; sourceTree = "<group>"; };
+		E62FE81AB9569F916169E523201EF027 /* LoadMoreControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoadMoreControl.m; path = Classes/Refresh/LoadMoreControl.m; sourceTree = "<group>"; };
+		FF18B38407A9094B8D8C2D6FEE453114 /* RefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RefreshGifHeader.m; path = Classes/Refresh/RefreshGifHeader.m; sourceTree = "<group>"; };
+		FF21DDEB70BC0E44C13D19E8B7FD209A /* UIScrollView+RefreshController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+RefreshController.h"; path = "Classes/Refresh/UIScrollView+RefreshController.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4462EA588071DD13A62D7548814D2991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B365052C8842A274C46027A40BA4CC10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA78D61B669FBF8EB83CC8040F82A00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99511B43537839D48A613E64163BB001 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D2E8E3CC796C6FB3BEE2D2AFC2ACDAE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11B0302308078197971A9BE5297A8381 /* Pods-RefreshControlDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		11B0302308078197971A9BE5297A8381 /* Pods-RefreshControlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DC4593B4DDA0F203354297D727A55071 /* Pods-RefreshControlDemo.modulemap */,
+				416B80BD29C077914F8B54B43BB3BE1A /* Pods-RefreshControlDemo-acknowledgements.markdown */,
+				778828C10167D8F1A9E16100D8A5F63A /* Pods-RefreshControlDemo-acknowledgements.plist */,
+				8CAFF61AE1EF1D86010DB0F28D3E120A /* Pods-RefreshControlDemo-dummy.m */,
+				5F914FC57F02C61856FD07BB144BFE8A /* Pods-RefreshControlDemo-frameworks.sh */,
+				22838D97A7E235C197678A711E197B46 /* Pods-RefreshControlDemo-Info.plist */,
+				B068BF8379767B908C13D98142F290DB /* Pods-RefreshControlDemo-umbrella.h */,
+				906161C49E3A9B0D817667CF62EA4D3E /* Pods-RefreshControlDemo.debug.xcconfig */,
+				494566773713989F1590B60D61EDC3FA /* Pods-RefreshControlDemo.release.xcconfig */,
+			);
+			name = "Pods-RefreshControlDemo";
+			path = "Target Support Files/Pods-RefreshControlDemo";
+			sourceTree = "<group>";
+		};
+		2C1A11B52D0AC8C6B8D47710CDDD0B92 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B17FF3E3429C0B1CA4119D4CA984593 /* RefreshControl */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4B17FF3E3429C0B1CA4119D4CA984593 /* RefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				396C16105A50B0617BD76F9C302F4291 /* LoadMoreControl.h */,
+				E62FE81AB9569F916169E523201EF027 /* LoadMoreControl.m */,
+				464CF675CE9C5EEB25B7EAB5B2340C12 /* RefreshBaseView.h */,
+				20BE8DF59E8B709AADA35E89B579A2F4 /* RefreshBaseView.m */,
+				90E50BC9C13939AAC7349149032D9187 /* RefreshConstant.h */,
+				DBF93ACBF085933C82997AC70A0F7813 /* RefreshConstant.m */,
+				4A0245359FEFD002F2A9BBFA260030A4 /* RefreshFooter.h */,
+				817524F9154C4C44D4EE1BBDC7BA8C4B /* RefreshFooter.m */,
+				C6EF1BC794DD4841A929058FDC84503C /* RefreshGifFooter.h */,
+				2A6305D4671876D184637438CBF0D349 /* RefreshGifFooter.m */,
+				059400E0826B70E2838ACD6D78EA92F7 /* RefreshGifHeader.h */,
+				FF18B38407A9094B8D8C2D6FEE453114 /* RefreshGifHeader.m */,
+				179B2337CACE53CB25633361769008C8 /* RefreshHeader.h */,
+				5B3799F61AA915325300DFDE41F18EB0 /* RefreshHeader.m */,
+				FF21DDEB70BC0E44C13D19E8B7FD209A /* UIScrollView+RefreshController.h */,
+				675B4864EEA573A51C15B63278A9C86A /* UIScrollView+RefreshController.m */,
+				2E5CB1C869E3B83CD827C564C75D5AAE /* UIView+Layout.h */,
+				CFA093D7DBD2C36505AEF184683799F3 /* UIView+Layout.m */,
+				5C759EE847649B815CB52C095F5919E0 /* Pod */,
+				BE64EF8F954A41103087B6199D440FB3 /* Support Files */,
+			);
+			name = RefreshControl;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5C759EE847649B815CB52C095F5919E0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				89429C5F6A76CE6A86BCDD8D267A528C /* LICENSE */,
+				1324239F30C276F555AF6AF1CCF1C794 /* README.md */,
+				A599391155E121D703E8ED3497E99C3E /* RefreshControl.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BE64EF8F954A41103087B6199D440FB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				282A02C7CEC807A30C3634CEB5A00DA9 /* RefreshControl.modulemap */,
+				801ACB48B141A856F5E2BBB903B2D22A /* RefreshControl-dummy.m */,
+				72D4DB0D410CD2D06897E46700216BE0 /* RefreshControl-Info.plist */,
+				4682D5311803800122FA464F28F22253 /* RefreshControl-prefix.pch */,
+				D8C0E4287A935C3A395681A5C3E1666F /* RefreshControl-umbrella.h */,
+				A28537CDD658E7A9C0D9A3B14A786B95 /* RefreshControl.debug.xcconfig */,
+				4937F90185A5FF43922EDDBD587B73C0 /* RefreshControl.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "RefreshControlDemo/Pods/Target Support Files/RefreshControl";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2C1A11B52D0AC8C6B8D47710CDDD0B92 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D0D029D8E3373F44A8A7B3FE5B01FAE3 /* Products */,
+				0D2E8E3CC796C6FB3BEE2D2AFC2ACDAE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0D029D8E3373F44A8A7B3FE5B01FAE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17FB291894CF8345ADDF3CD842793783 /* Pods_RefreshControlDemo.framework */,
+				73AE27AA9705ABB9545FEB81B2A57C1A /* RefreshControl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06C71439185E90CAD07D9BA0C29BD117 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B22E0A8E28B72A8A4D756D6AF5A4231 /* LoadMoreControl.h in Headers */,
+				AE183E655AACC5101B43A5F37A26A8BB /* RefreshBaseView.h in Headers */,
+				1CA00ECEACCC704E07BEAFC433EDE83E /* RefreshConstant.h in Headers */,
+				6061A1D23BA3B8547DA646006E67B0DE /* RefreshControl-umbrella.h in Headers */,
+				3E45E26D30830D71A254EFC7DF10BA07 /* RefreshFooter.h in Headers */,
+				ECE1B4D83AD3D8EEB52E5BE04F952298 /* RefreshGifFooter.h in Headers */,
+				95B871A18039EA733F0CC609C0A59199 /* RefreshGifHeader.h in Headers */,
+				2D61BE4A4CB3C47360E753FA009C8238 /* RefreshHeader.h in Headers */,
+				624B3E4702A0DAAB2FC0761C96255CA0 /* UIScrollView+RefreshController.h in Headers */,
+				0A307FC83E077F074E67521520E83281 /* UIView+Layout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4241A46ACE4B6F50CF66E367D07886EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449A2C58EC31D980ECB1019CAF523F88 /* Pods-RefreshControlDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		492BD7592143DE97DB8959F2A4B90E25 /* RefreshControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A0722524E7D092F5B3773A8DDCF06E6 /* Build configuration list for PBXNativeTarget "RefreshControl" */;
+			buildPhases = (
+				06C71439185E90CAD07D9BA0C29BD117 /* Headers */,
+				950A942F6B3A9617E3B8105E17AD3626 /* Sources */,
+				4462EA588071DD13A62D7548814D2991 /* Frameworks */,
+				7637214C4E0A1CE88107C3B8CB01B499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RefreshControl;
+			productName = RefreshControl;
+			productReference = 73AE27AA9705ABB9545FEB81B2A57C1A /* RefreshControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB079051F6C9FD447F7A934A5B61D70C /* Pods-RefreshControlDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D33F1AF9F0252927B1C8CC294646FEC /* Build configuration list for PBXNativeTarget "Pods-RefreshControlDemo" */;
+			buildPhases = (
+				4241A46ACE4B6F50CF66E367D07886EC /* Headers */,
+				E5FFDA2734D9C3180030052223154118 /* Sources */,
+				DCA78D61B669FBF8EB83CC8040F82A00 /* Frameworks */,
+				6CFBED478ACDA69A3665F7B0FCAA2148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CCBE5BFFF8EEB4DF9887BD856EBD4D2 /* PBXTargetDependency */,
+			);
+			name = "Pods-RefreshControlDemo";
+			productName = "Pods-RefreshControlDemo";
+			productReference = 17FB291894CF8345ADDF3CD842793783 /* Pods_RefreshControlDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D0D029D8E3373F44A8A7B3FE5B01FAE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB079051F6C9FD447F7A934A5B61D70C /* Pods-RefreshControlDemo */,
+				492BD7592143DE97DB8959F2A4B90E25 /* RefreshControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CFBED478ACDA69A3665F7B0FCAA2148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7637214C4E0A1CE88107C3B8CB01B499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		950A942F6B3A9617E3B8105E17AD3626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92EFF8B86FEA50D900D647931A159F22 /* LoadMoreControl.m in Sources */,
+				CDFB383609EC4AA37AF0EFC970651CE5 /* RefreshBaseView.m in Sources */,
+				6ADAAB7BD2B43722B3C7C355527EA94B /* RefreshConstant.m in Sources */,
+				0C9C0EC6EADE1A6ED29A708714C6D9CD /* RefreshControl-dummy.m in Sources */,
+				D625086DD4DFB5D8CB1253E198C0F8FF /* RefreshFooter.m in Sources */,
+				F8B71A809B5F1BF3D8C55FB2E77C8488 /* RefreshGifFooter.m in Sources */,
+				AD244CD7AEA52098E5B87072BB2F6F2A /* RefreshGifHeader.m in Sources */,
+				0433D22D5EC8B38A5013B91E4B21A847 /* RefreshHeader.m in Sources */,
+				41B815CFCBA96E6AAF5B1EADDCFEA204 /* UIScrollView+RefreshController.m in Sources */,
+				6CD51A8172D47BE36A25E845005C5AF5 /* UIView+Layout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5FFDA2734D9C3180030052223154118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D9F1B646DD8762CC7B43626766F3F4 /* Pods-RefreshControlDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CCBE5BFFF8EEB4DF9887BD856EBD4D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RefreshControl;
+			target = 492BD7592143DE97DB8959F2A4B90E25 /* RefreshControl */;
+			targetProxy = C861966F752A1FEF2C49B42D6E635B75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		238D071AE47520AA5C17661B64F07137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28537CDD658E7A9C0D9A3B14A786B95 /* RefreshControl.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RefreshControl/RefreshControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RefreshControl/RefreshControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RefreshControl/RefreshControl.modulemap";
+				PRODUCT_MODULE_NAME = RefreshControl;
+				PRODUCT_NAME = RefreshControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E2577F1E156EB3E451EE1932E76F077F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494566773713989F1590B60D61EDC3FA /* Pods-RefreshControlDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RefreshControlDemo/Pods-RefreshControlDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RefreshControlDemo/Pods-RefreshControlDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F616BAA31AF8BE759687B565B3E04F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 906161C49E3A9B0D817667CF62EA4D3E /* Pods-RefreshControlDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RefreshControlDemo/Pods-RefreshControlDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RefreshControlDemo/Pods-RefreshControlDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC44571FAEB78E6FB937A5A1215360F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4937F90185A5FF43922EDDBD587B73C0 /* RefreshControl.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RefreshControl/RefreshControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RefreshControl/RefreshControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RefreshControl/RefreshControl.modulemap";
+				PRODUCT_MODULE_NAME = RefreshControl;
+				PRODUCT_NAME = RefreshControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A0722524E7D092F5B3773A8DDCF06E6 /* Build configuration list for PBXNativeTarget "RefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238D071AE47520AA5C17661B64F07137 /* Debug */,
+				FC44571FAEB78E6FB937A5A1215360F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
+				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D33F1AF9F0252927B1C8CC294646FEC /* Build configuration list for PBXNativeTarget "Pods-RefreshControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F616BAA31AF8BE759687B565B3E04F68 /* Debug */,
+				E2577F1E156EB3E451EE1932E76F077F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
